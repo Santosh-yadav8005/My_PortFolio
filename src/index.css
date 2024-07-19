@@ -6,17 +6,4 @@
 body {
   font-family: "Poppins", sans-serif;
 }
-.btn{
-  display: inline-block;
-  width: fit-content;
-  margin: auto 10px;
-  border: 1px solid #ff004f;
-  padding: 14px 50px;
-  border-radius: 6px;
-  text-decoration: none;
-  color: black;
-  transition: background 0.5s;
-}
-.btn:hover{
-  background: #ff004f;
-}
+
