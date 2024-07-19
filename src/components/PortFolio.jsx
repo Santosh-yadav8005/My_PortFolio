@@ -2,7 +2,7 @@ import React from 'react'
 import ht from "../../public/ht.avif";
 import cl from "../../public/cl.avif";
 import ck from "../../public/ck.avif";
-import basket from "../../public/b.png"
+import basket from "../../public/b.png";
 
 function PortFolio() {
   return (
