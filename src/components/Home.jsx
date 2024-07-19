@@ -83,8 +83,20 @@ function Home() {
                 </div>
               </div>
               </div>
-              <a href="../../public/SANTOSH.pdf" download class="btn btn2">Download CV</a>
-              <a href="https://github.com/" target="_blank" class="btn btn2">GitHub</a>
+              <a href={pdf} download>
+              <button
+                type="download"
+                className="bg-black text-white rounded-xl m-2 px-3 py-2 hover:bg-slate-700 duration-300"
+              >
+                Download CV
+              </button></a>
+            <a href="https://github.com/" target="_blank">
+              <button
+                type="download"
+                className="bg-black text-white rounded-xl px-3 m-2 py-2 hover:bg-slate-700 duration-300"
+              >
+                Github
+              </button></a>
             
           </div>
           <div className="md:w-1/2 md:ml-48 md:mt-20 mt-8 order-1">
