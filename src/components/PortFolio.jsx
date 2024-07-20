@@ -32,6 +32,20 @@ function PortFolio() {
                  </button></a>
             </div>
 
+           <div className="md:w-[300px] md:h-[300px] border-[2px] rounded-lg shadow-lg p-1 cursor-pointer hover:scale-105 duration-300">
+          <div className="w-[120px] h-[120px] p-1 rounded-full border-[2px]">
+            <img src={basket} alt="img" />
+            </div>
+            <h1 className="text-green-800 text-xl m-1"> Vegitable Website</h1>
+            <p className="m-1"> This is an E-Commerce Vegitable Website</p>
+            <a href="https://bejewelled-sopapillas-5aff78.netlify.app/" target="_blank">
+            <button className="bg-blue-500  hover:bg-blue-700 text-white font-bold px-4 py-2 rounded m-2">Demo
+              </button> </a>
+              <a href="https://github.com/Santosh-yadav8005/Frontend_E-Commerce_Vegitable_Website" target='_blank'>
+              <button className="bg-green-400  hover:bg-green-600 text-white font-bold px-4  py-2 m-2 rounded"> Source Code
+                 </button></a>
+            </div>
+
 
             <div className="md:w-[300px] md:h-[300px] border-[2px] rounded-lg shadow-lg p-1 cursor-pointer hover:scale-105 duration-300">
           <div className="w-[120px] h-[120px] p-1 rounded-full border-[2px]">
@@ -63,19 +77,7 @@ function PortFolio() {
                  </button></a>
             </div>
 
-          <div className="md:w-[300px] md:h-[300px] border-[2px] rounded-lg shadow-lg p-1 cursor-pointer hover:scale-105 duration-300">
-          <div className="w-[120px] h-[120px] p-1 rounded-full border-[2px]">
-            <img src={basket} alt="img" />
-            </div>
-            <h1 className="text-green-800 text-xl m-1"> Vegitable Website</h1>
-            <p className="m-1"> This is an E-Commerce Vegitable Website</p>
-            <a href="https://bejewelled-sopapillas-5aff78.netlify.app/" target="_blank">
-            <button className="bg-blue-500  hover:bg-blue-700 text-white font-bold px-4 py-2 rounded m-2">Demo
-              </button> </a>
-              <a href="https://github.com/Santosh-yadav8005/Frontend_E-Commerce_Vegitable_Website" target='_blank'>
-              <button className="bg-green-400  hover:bg-green-600 text-white font-bold px-4  py-2 m-2 rounded"> Source Code
-                 </button></a>
-            </div>
+         
 
             
 
