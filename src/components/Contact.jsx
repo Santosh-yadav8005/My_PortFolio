@@ -49,7 +49,7 @@ function Contact() {
                 id="name"
                 name="name"
                 type="text"
-                placeholder="Enter your fullname"
+                placeholder="Enter your fullname" require
               />
               {errors.name && <span>This field is required</span>}
             </div>
@@ -61,7 +61,7 @@ function Contact() {
                 id="mobile"
                 name="mobile"
                 type="number"
-                placeholder="Enter your mobile number"
+                placeholder="Enter your mobile number" require
               />
               {errors.mobile && <span>This field is required</span>}
             </div>
@@ -73,7 +73,7 @@ function Contact() {
                 id="message"
                 name="message"
                 type="text"
-                placeholder="Enter your Query"
+                placeholder="Enter your Query" require
               />
               {errors.message && <span>This field is required</span>}
             </div>
