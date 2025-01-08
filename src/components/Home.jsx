@@ -1,7 +1,7 @@
 import React from "react";
 
 import pic from "../../public/code.avif";
-import pdf from "../../public/Santosh_Resume.pdf";
+import pdf from "../../public/SANTOSH YADAV.pdf";
 
 import { FaInstagram } from "react-icons/fa6";
 import { FaLinkedin } from "react-icons/fa";
